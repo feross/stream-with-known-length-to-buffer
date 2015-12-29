@@ -2,7 +2,7 @@
 
 #### Convert a Readable Stream with a known length into a Buffer
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/stream-with-known-length-to-buffer.svg)](https://saucelabs.com/u/stream-with-known-length-to-buffer)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/stream-with.svg)](https://saucelabs.com/u/stream-with)
 
 This package converts a Readable Stream into a Buffer, with just one Buffer
 allocation (excluding allocations done internally by the streams implementation).

@@ -34,9 +34,9 @@ toBuffer(fs.createReadStream('file.txt'), 1000, function (err, buf) {
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
 
-[travis-image]: https://img.shields.io/travis/feross/stream-with-known-length-to-buffer.svg?style=flat
+[travis-image]: https://img.shields.io/travis/feross/stream-with-known-length-to-buffer/master.svg
 [travis-url]: https://travis-ci.org/feross/stream-with-known-length-to-buffer
-[npm-image]: https://img.shields.io/npm/v/stream-with-known-length-to-buffer.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/stream-with-known-length-to-buffer.svg
 [npm-url]: https://npmjs.org/package/stream-with-known-length-to-buffer
-[downloads-image]: https://img.shields.io/npm/dm/stream-with-known-length-to-buffer.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/stream-with-known-length-to-buffer.svg
 [downloads-url]: https://npmjs.org/package/stream-with-known-length-to-buffer

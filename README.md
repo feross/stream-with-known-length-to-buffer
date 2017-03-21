@@ -1,4 +1,13 @@
-# stream-with-known-length-to-buffer [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url]
+# stream-with-known-length-to-buffer [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+
+[travis-image]: https://img.shields.io/travis/feross/stream-with-known-length-to-buffer/master.svg
+[travis-url]: https://travis-ci.org/feross/stream-with-known-length-to-buffer
+[npm-image]: https://img.shields.io/npm/v/stream-with-known-length-to-buffer.svg
+[npm-url]: https://npmjs.org/package/stream-with-known-length-to-buffer
+[downloads-image]: https://img.shields.io/npm/dm/stream-with-known-length-to-buffer.svg
+[downloads-url]: https://npmjs.org/package/stream-with-known-length-to-buffer
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
 
 #### Convert a Readable Stream with a known length into a Buffer
 
@@ -33,10 +42,3 @@ toBuffer(fs.createReadStream('file.txt'), 1000, function (err, buf) {
 ### license
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
-
-[travis-image]: https://img.shields.io/travis/feross/stream-with-known-length-to-buffer/master.svg
-[travis-url]: https://travis-ci.org/feross/stream-with-known-length-to-buffer
-[npm-image]: https://img.shields.io/npm/v/stream-with-known-length-to-buffer.svg
-[npm-url]: https://npmjs.org/package/stream-with-known-length-to-buffer
-[downloads-image]: https://img.shields.io/npm/dm/stream-with-known-length-to-buffer.svg
-[downloads-url]: https://npmjs.org/package/stream-with-known-length-to-buffer

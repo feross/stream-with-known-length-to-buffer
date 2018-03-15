@@ -2,7 +2,7 @@ var once = require('once')
 
 module.exports = function getBuffer (stream, length, cb) {
   cb = once(cb)
-  var buf = new Buffer(length)
+  var buf = Buffer.alloc(length)
   var offset = 0
   stream
     .on('data', function (chunk) {

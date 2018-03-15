@@ -7,6 +7,6 @@ test('basic usage', function (t) {
   var stream = str('0123456789')
   toBuffer(stream, 10, function (err, buf) {
     t.error(err)
-    t.deepEqual(buf, new Buffer('0123456789'))
+    t.deepEqual(buf, Buffer.from('0123456789'))
   })
 })

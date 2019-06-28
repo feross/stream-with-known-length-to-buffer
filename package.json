@@ -1,7 +1,7 @@
 {
   "name": "stream-with-known-length-to-buffer",
   "description": "Convert a Readable Stream with a known length into a Buffer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",

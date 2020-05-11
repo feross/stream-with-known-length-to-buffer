@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "airtap": "^2.0.3",
-    "standard": "*",
+    "standard": ">=14.3.4",
     "string-to-stream": "^3.0.0",
     "tape": "^4.0.0"
   },
